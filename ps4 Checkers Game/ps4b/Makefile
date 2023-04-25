@@ -16,5 +16,5 @@ Checkers: main.o Checkers.o $(DEPS)
 lint:
 	cpplint --recursive --quiet .
 
-clean: 
+clean:
 	rm *.o Checkers
